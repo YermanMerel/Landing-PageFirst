@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+/* CSS Variable */
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --primary-color: #0652dd;
+    --secondary-color: #ea2027;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+}
+
+/*Smooth scroll effect*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*Resets default page*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(transition);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+/*Logotipo style*/
+.fist {
+    color: var(--secondary-color);
+}
+
+.jab {
+    color: var(--primary-color);
+}
+
+.tv {
+    color: var(--secondary-color);
+}
+
+/*colocar el logotipo y los elementos del menú uno al lado del otro con flexbox*/
+nav {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #f1f1f1;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/*Ocultar la barra de navegación*/
+.hamburger {
+    display: none;
+}
+
+/*Logotipo mas grande y los hipervinculos unos alado de otro*/
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    font-weight: var(--bold-font);
+}
