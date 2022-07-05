@@ -92,3 +92,14 @@ ul {
 .nav-link {
     font-weight: var(--bold-font);
 }
+
+/*Aplicando estilos a la sección del hero utilizando flexbox para que el video y la intro queden uno alado del otro*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.9rem;
+    max-width: 1100px;
+    margin: 2rem auto -6rem;
+}
+
