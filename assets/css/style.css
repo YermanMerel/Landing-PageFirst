@@ -60,7 +60,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 0 1rem;
     box-shadow: 2px 3px 2px #f1f1f1;
     position: sticky;
     top: 0;
@@ -75,7 +75,7 @@ nav {
 
 /*Logotipo mas grande y los hipervinculos unos alado de otro*/
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
@@ -103,3 +103,28 @@ ul {
     margin: 2rem auto -6rem;
 }
 
+.intro-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text h3 {
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    line-height: var(--line-height);
+}
+
+.hear {
+    color: var(--primary-color);
+}
+
+.conecting {
+    color: var(--secondary-color);
+}
+
+/*Estilo en común que tiene los botones*/
+.btn {
+    display: inline-block;
+}
